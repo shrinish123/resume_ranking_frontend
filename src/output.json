@@ -1,0 +1,126 @@
+{
+    "recommended_candidates": [
+        {
+            "name": "Amit Kumar",
+            "projects": [
+                {
+                    "project_title": "ChatScape - Random Chat Application(Group Project)",
+                    "short_description": "Developed a product that enables people to interact with strangers in a similar way as Omegle. Pairing users in one-on-one sessions where they can speak via text or video is done at random. Frontend was built with HTML/CSS and EJS, and the backend was built with Node.js.",
+                    "tech_stack": "NodeJS, HTML/CSS, JavaScript, EJS",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                },
+                {
+                    "project_title": "Quiz Web Application",
+                    "short_description": "Created a quiz web application that allows users to create and take quizzes. Beneficial for school or university organizations.",
+                    "tech_stack": "Node.js, ReactJS, MySQL, HTML/CSS",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                },
+                {
+                    "project_title": "Incognito-Book (Full Stack)",
+                    "short_description": "Designed and deployed a social media clone from scratch, which provides extensive features of social media for any kind of users. Implemented features like user authentication, feeds section (uploading, commenting) and creating groups.",
+                    "tech_stack": "Node.js, ReactJS, MongoDB, JavaScript, Material-UI",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                },
+                {
+                    "project_title": "ML Projects",
+                    "short_description": "AI Chatbot: Engineered an AI chatbot which optimizes the user experience by accurately answering 200+ queries regarding institute fees, placement, etc. while reducing customer support issues by 40%. Fire Detection using satellite images: Developed an ML model and integrated with web development tools to host and run it locally. The accuracy of the model is 90% and user friendly website.",
+                    "tech_stack": "Python, TensorFlow, Keras, Jupyter Notebook",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                }
+            ],
+            "professional_experience": [
+                {
+                    "role": "Software Developer",
+                    "organisation": "FUSION",
+                    "short_description": "As a software developer, worked on fusion(institute’s website) and learned how to operate in groups. Collaborated on the development of Finance & Accounts and Income Expenditure modules, gaining in-depth knowledge about it. Created REST API’s for and wrote efficient and protected queries resulting in 20% faster access. Documented the work by creating SRS(Software Requirements Specifications) for it and also wrote unit tests for the module.",
+                    "tech_stack": "Not Specified",
+                    "time_duration": {
+                        "start": "Jan 2023",
+                        "end": "May 2023",
+                        "duration_months": 5
+                    }
+                }
+            ],
+            "college": {
+                "name": "Indian Institute of Information Technology Jabalpur",
+                "branch": "Not Specified",
+                "degree": "Bachelor of Technology - Computer Science and Engineering",
+                "CGPA": 8.6,
+                "start": "Not Specified",
+                "end": "Not Specified"
+            }
+        },
+        {
+            "name": "Ambrish Dubey",
+            "projects": [
+                {
+                    "project_title": "Pocket Penny",
+                    "short_description": "An advanced finance tracking solution",
+                    "tech_stack": "MERN stack",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                },
+                {
+                    "project_title": "Nostalgia",
+                    "short_description": "A collection of retro games",
+                    "tech_stack": "Not Specified",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                },
+                {
+                    "project_title": "Todo",
+                    "short_description": "A full-stack To do web app",
+                    "tech_stack": "Not Specified",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                }
+            ],
+            "professional_experience": [
+                {
+                    "role": "Not Specified",
+                    "organisation": "Not Specified",
+                    "short_description": "Not Specified",
+                    "tech_stack": "Not Specified",
+                    "time_duration": {
+                        "start": "Not Specified",
+                        "end": "Not Specified",
+                        "duration_months": 0
+                    }
+                }
+            ],
+            "college": {
+                "name": "Not Specified",
+                "branch": "Not Specified",
+                "degree": "Not Specified",
+                "CGPA": 0.0,
+                "start": "Not Specified",
+                "end": "Not Specified"
+            }
+        }
+    ]
+}
