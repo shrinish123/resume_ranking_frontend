@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import TextField from '@mui/material/TextField';
 import axios from 'axios'
-import { BASEURL } from '../constants';
+import { config } from '../constants';
 import Results from '../components/Results';
 import { BsFilePdf } from 'react-icons/bs'
 
@@ -28,7 +28,7 @@ function Home() {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const url = BASEURL;
+    const url = config.BASEURL;
     const formData = new FormData();
     formData.append('jobRole', jobRole);
     formData.append('jobDescription', jobDescription);
@@ -36,13 +36,13 @@ function Home() {
       formData.append(`files`, file);
     });
    
-    const config = {
+    const configHeaders = {
       headers: {
         'content-type': 'multipart/form-data',
       },
     };
     setLoading(true)
-    axios.post(url, formData, config)
+    axios.post(url, formData, configHeaders)
       .then((response) => {
         console.log(response.data);
         setResults(response.data);
