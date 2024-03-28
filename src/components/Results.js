@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Modal from 'react-modal';
 
 function Results({results}){
-    const { recommended_candidates, not_recommended_candidates } = results;
+    const { recommended_candidates } = results;
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [selectedCandidate, setSelectedCandidate] = useState(null);
 
@@ -206,7 +206,7 @@ const CandidateCard = ({candidate,onOpenModal}) => {
             <p className='w-[15rem]'>Resume Link</p>
         </div>
         <div>
-            <p className='w-[15rem]'><a href="#" onClick={onOpenModal} className="text-purple-500 hover:text-purple-700 cursor-pointer">
+            <p className='w-[15rem]'><a href="h" onClick={onOpenModal} className="text-purple-500 hover:text-purple-700 cursor-pointer">
                 View Details
                 </a>
             </p>
